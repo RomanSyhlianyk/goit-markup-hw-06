@@ -488,13 +488,14 @@
         <div class="sign-up-box">
           <p class="sign-up-text">Підпишіться на розсилку</p>
           <form class="sign-up-form">
-            <label></label>
-            <input
-              class="sign-up-input-email"
-              type="email"
-              name="user-email"
-              placeholder="E-mail"
-            />
+            <label>
+              <input
+                class="sign-up-input-email"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
             <button class="sign-up-button" type="submit">
               <span>Підписатися</span>
               <svg class="sign-up-button-icon" width="24" height="24">
@@ -504,7 +505,9 @@
           </form>
         </div>
       </div>
-      <!-- ------MODAL WINDOW------ -->
+     
+    </footer>
+     <!-- ------MODAL WINDOW------ -->
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button type="button" data-modal-close class="modal-close-button">
@@ -512,8 +515,9 @@
               <use href="./img/icon-svg/icons-svg.svg#icon-close"></use>
             </svg>
           </button>
+          <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
           <form class="modal-form">
-            <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+            
             <label class="form-lable" for="first-name">Ім'я</label>
             <div class="modal-input-box">
               <input
@@ -542,8 +546,8 @@
               </svg>
             </div>
             <label class="form-lable" for="email"
-              >Пошта
-              <span class="modal-input-box">
+              >Пошта</label>
+              <div class="modal-input-box">
                 <input
                   class="modal-input"
                   type="email"
@@ -556,8 +560,8 @@
                     href="./img/icon-svg/icons-svg.svg#icon-email-black"
                   ></use>
                 </svg>
-              </span>
-            </label>
+              </div>
+            
 
             <label class="form-lable" for="comment">Коментар</label>
             <textarea
@@ -588,6 +592,5 @@
         </div>
       </div>
       <script src="./js/modal.js"></script>
-    </footer>
   </body>
 </html>

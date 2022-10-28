@@ -483,6 +483,7 @@ p {
 .footer-box {
   padding: 60px 0;
   display: flex;
+  align-items: baseline;
 }
 
 .footer-adress-box {
@@ -525,7 +526,7 @@ p {
 }
 
 .join-box {
-  padding-top: 15px;
+  
 }
 
 .join-text {
@@ -571,7 +572,7 @@ p {
 }
 
 .sign-up-box {
-  padding-top: 15px;
+  
   margin-left: auto;
 }
 
@@ -654,6 +655,7 @@ p {
   bottom: 0;
   left: 0;
   margin: auto;
+  padding: 40px;
   width: 528px;
   height: 581px;
   background-color: var(--bg-color);
@@ -698,10 +700,11 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 40px;
+  
 }
 
 .form-title {
+ text-align: center;
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -802,7 +805,9 @@ p {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
@@ -824,7 +829,6 @@ p {
 }
 
 .check-link {
-  line-height: 1.71;
   text-decoration: underline;
   text-decoration-skip-ink: none;
 

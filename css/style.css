@@ -793,12 +793,12 @@ p {
   opacity: 1;
 }
 
-.agree-check {
+/* .agree-check {
   display: flex;
   align-items: center;
   margin-right: 7px;
   cursor: pointer;
-}
+} */
 
 .check-lable {
   display: flex;
